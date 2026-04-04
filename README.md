@@ -41,3 +41,40 @@ The lab focuses on understanding the Ubuntu (UNIX) environment and basic C progr
 - GCC Compiler
 - C Programming
 
+
+
+# Lab Sheet 02 – Selection Statements in C
+
+## 📌 Overview
+This lab focuses on selection statements in C programming using if-else and switch-case structures.
+
+---
+
+## 🧠 Topics Covered
+- if-else statements
+- Nested conditions
+- switch-case statements
+- Menu-driven programs
+
+---
+
+## 💻 Activities
+- Analyze and modify conditional programs
+- Pass/Fail decision using average marks
+- Identify senior citizens based on age and gender
+- Grade calculation using if-else
+- Menu-driven program using switch-case
+- Grade calculation using switch-case
+
+---
+
+## 🛠️ Technologies Used
+- C Programming
+- GCC Compiler
+- Ubuntu Linux
+
+---
+
+
+
+
