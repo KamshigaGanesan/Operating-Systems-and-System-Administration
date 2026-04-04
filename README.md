@@ -75,6 +75,38 @@ This lab focuses on selection statements in C programming using if-else and swit
 
 ---
 
+# Lab Sheet 03 – Iteration, Arrays, and Functions in C
+
+## 📌 Overview
+This lab focuses on iteration statements, arrays, and functions in C programming. It demonstrates how to use loops, manage data using arrays, and organize code using functions.
+
+---
+
+## 🧠 Topics Covered
+- Iteration statements (for loop)
+- Pattern printing using loops
+- Arrays in C
+- Functions and parameter passing
+
+---
+
+## 💻 Activities
+- Analyze a loop-based program
+- Rewrite program using a for loop
+- Print number patterns using loops
+- Store and analyze rainfall data using arrays
+- Use functions to print numbers
+- Use multiple functions to calculate average and assign grades
+
+---
+
+## 🛠️ Technologies Used
+- C Programming
+- GCC Compiler
+- Ubuntu Linux
+
+---
+
 
 
 
