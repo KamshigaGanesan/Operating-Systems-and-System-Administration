@@ -107,6 +107,50 @@ This lab focuses on iteration statements, arrays, and functions in C programming
 
 ---
 
+# Lab Sheet 04 – Process Management in C
+
+## 📌 Overview
+This lab focuses on process management concepts in UNIX using C programming. It demonstrates how processes are created, managed, and terminated using system calls.
+
+---
+
+## 🧠 Topics Covered
+- Process ID and Parent Process ID
+- Process hierarchy in UNIX
+- System calls (getpid, getppid, fork, execl, exit)
+- Process creation and termination
+- Process replacement using exec
+- Executing commands using system()
+
+---
+
+## 💻 Activities
+- Print process ID using system calls
+- Retrieve parent process ID
+- View process hierarchy using pstree
+- Terminate process using exit()
+- Create child processes using fork()
+- Differentiate parent and child processes
+- Replace process using execl()
+- Execute shell commands using system()
+
+---
+
+## 📸 Screenshots
+Screenshots of terminal outputs (PID, PPID, pstree) are included in the `screenshots/` folder.
+
+---
+
+## 🛠️ Technologies Used
+- Ubuntu Linux
+- GCC Compiler
+- C Programming
+- UNIX System Calls
+
+---
+
+
+
 
 
 
