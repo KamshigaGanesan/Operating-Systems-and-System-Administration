@@ -184,6 +184,43 @@ Screenshots of thread execution outputs are included in the `screenshots/` folde
 - GCC Compiler
 - Ubuntu Linux
 
+# Lab Sheet 06 – Inter-Process Communication (Pipes) in C
+
+## 📌 Overview
+This lab focuses on Inter-Process Communication (IPC) using pipes in UNIX systems. It demonstrates how processes communicate using pipe system calls in C programming.
+
+---
+
+## 🧠 Topics Covered
+- Introduction to Pipes in UNIX
+- pipe() system call
+- Parent-child communication
+- One-way and two-way communication
+- Data transfer between processes
+
+---
+
+## 💻 Activities
+- Analyze pipe-based communication program
+- Modify program for parent-child message passing
+- Implement two-way communication using two pipes
+- Perform data processing between parent and child processes
+
+---
+
+## 📸 Screenshots
+Screenshots of program output and terminal communication are included in the `screenshots/` folder.
+
+---
+
+## 🛠️ Technologies Used
+- C Programming
+- UNIX System Calls
+- pipe(), fork()
+- GCC Compiler
+- Ubuntu Linux
+
+
 ---
 ## 📂 Structure
 
