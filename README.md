@@ -147,6 +147,43 @@ Screenshots of terminal outputs (PID, PPID, pstree) are included in the `screens
 - C Programming
 - UNIX System Calls
 
+# Lab Sheet 05 – POSIX Threads (Pthreads) in C
+
+## 📌 Overview
+This lab focuses on multithreading concepts using POSIX Pthreads in C programming. It demonstrates thread creation, parameter passing, and concurrent execution of tasks.
+
+---
+
+## 🧠 Topics Covered
+- Introduction to POSIX Threads (Pthreads)
+- Thread creation using pthread_create()
+- Passing arguments to threads
+- Using structures with threads
+- Concurrent execution of multiple threads
+
+---
+
+## 💻 Activities
+- Analyze a basic thread program
+- Create multiple threads and print thread IDs
+- Use structures with threads
+- Pass arguments using void pointer
+- Perform sum and product operations using threads
+- Handle arrays in multithreaded programs
+
+---
+
+## 📸 Screenshots
+Screenshots of thread execution outputs are included in the `screenshots/` folder.
+
+---
+
+## 🛠️ Technologies Used
+- C Programming
+- POSIX Threads (Pthreads)
+- GCC Compiler
+- Ubuntu Linux
+
 ---
 ## 📂 Structure
 
