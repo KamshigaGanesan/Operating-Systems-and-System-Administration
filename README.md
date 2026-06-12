@@ -10,6 +10,7 @@ Coursework for IT2130: Operating Systems and System Administration, including la
 - POSIX Threads
 - Inter-Process Communication (IPC)
 - Process Creation and Synchronization
+- Shared Memory
 
 ## Technologies
 - Linux
@@ -268,6 +269,52 @@ Screenshots of process execution, process IDs, fork() outputs, and thread execut
 - C Programming
 - UNIX System Calls (`fork()`, `wait()`)
 - POSIX Threads (Pthreads)
+
+---
+# Lab Sheet 08 – Shared Memory and Inter-Process Communication (IPC)
+
+## 📌 Overview
+This lab focuses on Inter-Process Communication (IPC) using Shared Memory in UNIX systems. It demonstrates how processes can communicate efficiently by creating, accessing, reading, writing, and removing shared memory segments using System V shared memory system calls.
+
+---
+
+## 🧠 Topics Covered
+- Inter-Process Communication (IPC)
+- Shared Memory Concepts
+- System V Shared Memory
+- Creating Shared Memory Segments
+- Attaching and Detaching Shared Memory
+- Reading and Writing Data in Shared Memory
+- Removing Shared Memory Segments
+- Shared Memory System Calls (`shmget`, `shmat`, `shmdt`, `shmctl`)
+- IPC Keys and Permissions
+
+---
+
+## 💻 Activities
+- Analyze shared memory programs line by line
+- Create a shared memory segment using `shmget()`
+- Attach shared memory using `shmat()`
+- Write messages into shared memory
+- Read messages from shared memory
+- Detach shared memory using `shmdt()`
+- Remove shared memory using `shmctl()`
+- Implement a complete shared memory communication program
+- Store and retrieve messages between processes
+
+---
+
+## 📸 Screenshots
+Screenshots of shared memory creation, message writing, message reading, and shared memory removal are included in the `screenshots/` folder.
+
+---
+
+## 🛠️ Technologies Used
+- Ubuntu Linux
+- GCC Compiler
+- C Programming
+- UNIX System Calls
+- Shared Memory (System V IPC)
 
 ---
 ---
