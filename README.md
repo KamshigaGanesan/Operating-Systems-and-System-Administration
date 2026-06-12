@@ -11,6 +11,9 @@ Coursework for IT2130: Operating Systems and System Administration, including la
 - Inter-Process Communication (IPC)
 - Process Creation and Synchronization
 - Shared Memory
+- UNIX File System
+- File Permissions
+- Hard and Soft Links
 
 ## Technologies
 - Linux
@@ -315,6 +318,57 @@ Screenshots of shared memory creation, message writing, message reading, and sha
 - C Programming
 - UNIX System Calls
 - Shared Memory (System V IPC)
+
+---
+# Lab Sheet 09 – UNIX File System and File Permissions
+
+## 📌 Overview
+This lab focuses on understanding the UNIX file system structure, file access permissions, directory navigation, file modes, i-nodes, and file linking mechanisms. It demonstrates how users can manage files and directories securely using Linux commands.
+
+---
+
+## 🧠 Topics Covered
+- UNIX Directory Structure
+- Directory Navigation Commands
+- File and Directory Permissions
+- File Ownership and Access Control
+- chmod Command
+- Symbolic and Numeric Permission Modes
+- i-node Concepts
+- Hard Links
+- Soft Links (Symbolic Links)
+- File System Management
+
+---
+
+## 💻 Activities
+- Explore the UNIX directory hierarchy
+- Use `pwd`, `cd`, and `ls -l` commands
+- Analyze file types and permission structures
+- Modify file permissions using `chmod`
+- Configure access rights for files and directories
+- Understand owner, group, and others permissions
+- Display and analyze i-node numbers using `ls -i`
+- Create and manage hard links
+- Create and manage symbolic (soft) links
+- Compare hard links and soft links
+- Observe link counts and file behavior after modifications
+
+---
+
+## 📸 Screenshots
+Screenshots of directory navigation, permission changes, i-node inspection, hard link creation, and symbolic link operations are included in the `screenshots/` folder.
+
+---
+
+## 🛠️ Technologies Used
+- Ubuntu Linux
+- Linux Command Line Interface (CLI)
+- File System Utilities
+- chmod
+- ls
+- pwd
+- Hard Links and Symbolic Links
 
 ---
 ---
