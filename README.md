@@ -1,11 +1,15 @@
 # Operating-Systems-and-System-Administration
 Coursework for IT2130: Operating Systems and System Administration, including labs, assignments, and practical implementations and notes
+
 ## Contents
 - Process Management
 - Synchronization
 - Memory Management
 - File Systems
 - System Administration Tasks
+- POSIX Threads
+- Inter-Process Communication (IPC)
+- Process Creation and Synchronization
 
 ## Technologies
 - Linux
@@ -220,7 +224,52 @@ Screenshots of program output and terminal communication are included in the `sc
 - GCC Compiler
 - Ubuntu Linux
 
+# Lab Sheet 07 – Process Creation and POSIX Threads in C
 
+## 📌 Overview
+This lab focuses on process creation, process synchronization, and multithreading concepts in UNIX systems using C programming. It demonstrates how processes are created using `fork()`, synchronized using `wait()`, and how multiple threads are managed using POSIX Threads (Pthreads).
+
+---
+
+## 🧠 Topics Covered
+- Process creation using `fork()`
+- Parent and child process execution
+- Process IDs (PID)
+- Process synchronization using `wait()`
+- Multiple process creation
+- Shared and independent process memory
+- POSIX Threads (Pthreads)
+- Thread creation and management
+- Thread synchronization using `pthread_join()`
+
+---
+
+## 💻 Activities
+- Analyze process creation using `fork()`
+- Identify parent and child process behavior
+- Determine the number of processes created in recursive forks
+- Understand process synchronization with `wait()`
+- Examine variable behavior after process creation
+- Create multiple child processes
+- Implement thread creation using `pthread_create()`
+- Manage thread execution using `pthread_join()`
+- Analyze thread IDs and concurrent execution
+
+---
+
+## 📸 Screenshots
+Screenshots of process execution, process IDs, fork() outputs, and thread execution results are included in the `screenshots/` folder.
+
+---
+
+## 🛠️ Technologies Used
+- Ubuntu Linux
+- GCC Compiler
+- C Programming
+- UNIX System Calls (`fork()`, `wait()`)
+- POSIX Threads (Pthreads)
+
+---
 ---
 ## 📂 Structure
 
