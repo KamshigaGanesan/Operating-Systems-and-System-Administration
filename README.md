@@ -1,418 +1,436 @@
 # Operating-Systems-and-System-Administration
-Coursework for IT2130: Operating Systems and System Administration, including labs, assignments, and practical implementations and notes
 
-## Contents
-- Process Management
-- Synchronization
-- Memory Management
-- File Systems
-- System Administration Tasks
-- POSIX Threads
-- Inter-Process Communication (IPC)
-- Process Creation and Synchronization
-- Shared Memory
-- UNIX File System
-- File Permissions
-- Hard and Soft Links
-
-## Technologies
-- Linux
-- Shell Scripting
-- C Programming
-
-
-### 📌 Overview
-This repository contains solutions for Lab Sheet 01 of the IT2130 module.  
-The lab focuses on understanding the Ubuntu (UNIX) environment and basic C programming concepts.
+Coursework and practical implementations for **IT2130 – Operating Systems and System Administration** at Sri Lanka Institute of Information Technology (SLIIT).
 
 ---
+
+## 📌 Overview
+
+This repository contains laboratory exercises, practical implementations, and coursework completed for the **IT2130 – Operating Systems and System Administration** module.
+
+The repository covers fundamental operating system concepts including process management, process synchronization, inter-process communication (IPC), memory management, file systems, Linux administration, file permissions, shell scripting, and multithreading using POSIX Threads.
+
+All programs were developed and tested using **Ubuntu Linux**, **GCC Compiler**, and **Bash Shell**.
+
+---
+
+## 📚 Lab Sheets
+
+| Lab Sheet | Topic                                   |
+| --------- | --------------------------------------- |
+| Lab 01    | Ubuntu Basics and Introduction to C     |
+| Lab 02    | Selection Statements in C               |
+| Lab 03    | Iteration, Arrays, and Functions        |
+| Lab 04    | Process Management                      |
+| Lab 05    | POSIX Threads (Pthreads)                |
+| Lab 06    | Inter-Process Communication using Pipes |
+| Lab 07    | Process Creation and Synchronization    |
+| Lab 08    | Shared Memory IPC                       |
+| Lab 09    | UNIX File System and File Permissions   |
+| Lab 10    | Shell Variables and Shell Scripting     |
+| Lab 11    | Advanced Shell Scripting                |
+
+---
+
+## 📖 Topics Covered
+
+* Process Management
+* Process Synchronization
+* Memory Management
+* Inter-Process Communication (IPC)
+* Shared Memory
+* POSIX Threads (Pthreads)
+* UNIX File Systems
+* File Permissions
+* Hard Links and Soft Links
+* Linux Commands
+* Shell Scripting
+* System Administration Tasks
+
+---
+
+# Lab Sheet 01 – Ubuntu Basics and Introduction to C
+
+## 📌 Overview
+
+Introduction to Ubuntu Linux environment and basic C programming concepts.
 
 ### 🧠 Topics Covered
-- Ubuntu terminal basics
-- Writing and compiling C programs using GCC
-- Data types and variables in C
-- Input and output using printf() and scanf()
 
----
+* Ubuntu terminal basics
+* GCC compiler usage
+* Variables and data types
+* Input and output operations
 
 ### 💻 Activities
-- Hello World program
-- Display personal details (name, country, university)
-- Course score calculation (exam + homework)
-- Difference between integer and float division
-- Sum of two integers (user input)
 
----
+* Hello World program
+* Personal information display
+* Course score calculation
+* Integer and float division
+* User input handling
 
 ### 🛠️ Technologies Used
-- Ubuntu Linux
-- GCC Compiler
-- C Programming
 
+* Ubuntu Linux
+* GCC Compiler
+* C Programming
 
+---
 
 # Lab Sheet 02 – Selection Statements in C
 
 ## 📌 Overview
-This lab focuses on selection statements in C programming using if-else and switch-case structures.
 
----
+Implementation of decision-making structures using if-else and switch-case statements.
 
-## 🧠 Topics Covered
-- if-else statements
-- Nested conditions
-- switch-case statements
-- Menu-driven programs
+### 🧠 Topics Covered
 
----
+* if-else statements
+* Nested conditions
+* switch-case statements
+* Menu-driven programs
 
-## 💻 Activities
-- Analyze and modify conditional programs
-- Pass/Fail decision using average marks
-- Identify senior citizens based on age and gender
-- Grade calculation using if-else
-- Menu-driven program using switch-case
-- Grade calculation using switch-case
+### 💻 Activities
 
----
+* Conditional program analysis
+* Pass/Fail determination
+* Senior citizen identification
+* Grade calculation
+* Menu-driven applications
 
-## 🛠️ Technologies Used
-- C Programming
-- GCC Compiler
-- Ubuntu Linux
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* GCC Compiler
+* C Programming
 
 ---
 
 # Lab Sheet 03 – Iteration, Arrays, and Functions in C
 
 ## 📌 Overview
-This lab focuses on iteration statements, arrays, and functions in C programming. It demonstrates how to use loops, manage data using arrays, and organize code using functions.
 
----
+Understanding loops, arrays, and functions in C programming.
 
-## 🧠 Topics Covered
-- Iteration statements (for loop)
-- Pattern printing using loops
-- Arrays in C
-- Functions and parameter passing
+### 🧠 Topics Covered
 
----
+* Iteration statements
+* Arrays
+* Functions
+* Parameter passing
 
-## 💻 Activities
-- Analyze a loop-based program
-- Rewrite program using a for loop
-- Print number patterns using loops
-- Store and analyze rainfall data using arrays
-- Use functions to print numbers
-- Use multiple functions to calculate average and assign grades
+### 💻 Activities
 
----
+* Loop analysis
+* Number pattern generation
+* Rainfall data analysis
+* Function implementation
+* Grade calculation system
 
-## 🛠️ Technologies Used
-- C Programming
-- GCC Compiler
-- Ubuntu Linux
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* GCC Compiler
+* C Programming
 
 ---
 
 # Lab Sheet 04 – Process Management in C
 
 ## 📌 Overview
-This lab focuses on process management concepts in UNIX using C programming. It demonstrates how processes are created, managed, and terminated using system calls.
+
+Introduction to process management and UNIX system calls.
+
+### 🧠 Topics Covered
+
+* Process IDs
+* Parent and child processes
+* fork()
+* execl()
+* exit()
+* system()
+
+### 💻 Activities
+
+* Process creation
+* Parent-child relationship analysis
+* Process hierarchy visualization
+* Command execution
+
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* GCC Compiler
+* C Programming
+* UNIX System Calls
 
 ---
-
-## 🧠 Topics Covered
-- Process ID and Parent Process ID
-- Process hierarchy in UNIX
-- System calls (getpid, getppid, fork, execl, exit)
-- Process creation and termination
-- Process replacement using exec
-- Executing commands using system()
-
----
-
-## 💻 Activities
-- Print process ID using system calls
-- Retrieve parent process ID
-- View process hierarchy using pstree
-- Terminate process using exit()
-- Create child processes using fork()
-- Differentiate parent and child processes
-- Replace process using execl()
-- Execute shell commands using system()
-
----
-
-## 📸 Screenshots
-Screenshots of terminal outputs (PID, PPID, pstree) are included in the `screenshots/` folder.
-
----
-
-## 🛠️ Technologies Used
-- Ubuntu Linux
-- GCC Compiler
-- C Programming
-- UNIX System Calls
 
 # Lab Sheet 05 – POSIX Threads (Pthreads) in C
 
 ## 📌 Overview
-This lab focuses on multithreading concepts using POSIX Pthreads in C programming. It demonstrates thread creation, parameter passing, and concurrent execution of tasks.
+
+Implementation of multithreading using POSIX Threads.
+
+### 🧠 Topics Covered
+
+* Thread creation
+* Thread IDs
+* Thread synchronization
+* Parameter passing
+
+### 💻 Activities
+
+* Create multiple threads
+* Pass data to threads
+* Perform concurrent operations
+* Manage thread execution
+
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* GCC Compiler
+* POSIX Threads (Pthreads)
+* C Programming
 
 ---
 
-## 🧠 Topics Covered
-- Introduction to POSIX Threads (Pthreads)
-- Thread creation using pthread_create()
-- Passing arguments to threads
-- Using structures with threads
-- Concurrent execution of multiple threads
-
----
-
-## 💻 Activities
-- Analyze a basic thread program
-- Create multiple threads and print thread IDs
-- Use structures with threads
-- Pass arguments using void pointer
-- Perform sum and product operations using threads
-- Handle arrays in multithreaded programs
-
----
-
-## 📸 Screenshots
-Screenshots of thread execution outputs are included in the `screenshots/` folder.
-
----
-
-## 🛠️ Technologies Used
-- C Programming
-- POSIX Threads (Pthreads)
-- GCC Compiler
-- Ubuntu Linux
-
-# Lab Sheet 06 – Inter-Process Communication (Pipes) in C
+# Lab Sheet 06 – Inter-Process Communication (Pipes)
 
 ## 📌 Overview
-This lab focuses on Inter-Process Communication (IPC) using pipes in UNIX systems. It demonstrates how processes communicate using pipe system calls in C programming.
+
+Communication between processes using UNIX pipes.
+
+### 🧠 Topics Covered
+
+* Pipes
+* Parent-child communication
+* Data transfer
+* pipe() system call
+
+### 💻 Activities
+
+* One-way communication
+* Two-way communication
+* Data exchange between processes
+
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* GCC Compiler
+* pipe()
+* fork()
+* C Programming
 
 ---
 
-## 🧠 Topics Covered
-- Introduction to Pipes in UNIX
-- pipe() system call
-- Parent-child communication
-- One-way and two-way communication
-- Data transfer between processes
-
----
-
-## 💻 Activities
-- Analyze pipe-based communication program
-- Modify program for parent-child message passing
-- Implement two-way communication using two pipes
-- Perform data processing between parent and child processes
-
----
-
-## 📸 Screenshots
-Screenshots of program output and terminal communication are included in the `screenshots/` folder.
-
----
-
-## 🛠️ Technologies Used
-- C Programming
-- UNIX System Calls
-- pipe(), fork()
-- GCC Compiler
-- Ubuntu Linux
-
-# Lab Sheet 07 – Process Creation and POSIX Threads in C
+# Lab Sheet 07 – Process Creation and Synchronization
 
 ## 📌 Overview
-This lab focuses on process creation, process synchronization, and multithreading concepts in UNIX systems using C programming. It demonstrates how processes are created using `fork()`, synchronized using `wait()`, and how multiple threads are managed using POSIX Threads (Pthreads).
+
+Understanding process creation, synchronization, and multithreading concepts.
+
+### 🧠 Topics Covered
+
+* fork()
+* wait()
+* Process synchronization
+* Thread synchronization
+
+### 💻 Activities
+
+* Process creation analysis
+* Child process execution
+* Process synchronization
+* Thread management
+
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* GCC Compiler
+* fork()
+* wait()
+* POSIX Threads
 
 ---
 
-## 🧠 Topics Covered
-- Process creation using `fork()`
-- Parent and child process execution
-- Process IDs (PID)
-- Process synchronization using `wait()`
-- Multiple process creation
-- Shared and independent process memory
-- POSIX Threads (Pthreads)
-- Thread creation and management
-- Thread synchronization using `pthread_join()`
-
----
-
-## 💻 Activities
-- Analyze process creation using `fork()`
-- Identify parent and child process behavior
-- Determine the number of processes created in recursive forks
-- Understand process synchronization with `wait()`
-- Examine variable behavior after process creation
-- Create multiple child processes
-- Implement thread creation using `pthread_create()`
-- Manage thread execution using `pthread_join()`
-- Analyze thread IDs and concurrent execution
-
----
-
-## 📸 Screenshots
-Screenshots of process execution, process IDs, fork() outputs, and thread execution results are included in the `screenshots/` folder.
-
----
-
-## 🛠️ Technologies Used
-- Ubuntu Linux
-- GCC Compiler
-- C Programming
-- UNIX System Calls (`fork()`, `wait()`)
-- POSIX Threads (Pthreads)
-
----
-# Lab Sheet 08 – Shared Memory and Inter-Process Communication (IPC)
+# Lab Sheet 08 – Shared Memory and IPC
 
 ## 📌 Overview
-This lab focuses on Inter-Process Communication (IPC) using Shared Memory in UNIX systems. It demonstrates how processes can communicate efficiently by creating, accessing, reading, writing, and removing shared memory segments using System V shared memory system calls.
+
+Implementation of shared memory communication using System V IPC.
+
+### 🧠 Topics Covered
+
+* Shared memory
+* shmget()
+* shmat()
+* shmdt()
+* shmctl()
+
+### 💻 Activities
+
+* Create shared memory
+* Write messages
+* Read messages
+* Remove shared memory
+
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* GCC Compiler
+* Shared Memory
+* System V IPC
 
 ---
 
-## 🧠 Topics Covered
-- Inter-Process Communication (IPC)
-- Shared Memory Concepts
-- System V Shared Memory
-- Creating Shared Memory Segments
-- Attaching and Detaching Shared Memory
-- Reading and Writing Data in Shared Memory
-- Removing Shared Memory Segments
-- Shared Memory System Calls (`shmget`, `shmat`, `shmdt`, `shmctl`)
-- IPC Keys and Permissions
-
----
-
-## 💻 Activities
-- Analyze shared memory programs line by line
-- Create a shared memory segment using `shmget()`
-- Attach shared memory using `shmat()`
-- Write messages into shared memory
-- Read messages from shared memory
-- Detach shared memory using `shmdt()`
-- Remove shared memory using `shmctl()`
-- Implement a complete shared memory communication program
-- Store and retrieve messages between processes
-
----
-
-## 📸 Screenshots
-Screenshots of shared memory creation, message writing, message reading, and shared memory removal are included in the `screenshots/` folder.
-
----
-
-## 🛠️ Technologies Used
-- Ubuntu Linux
-- GCC Compiler
-- C Programming
-- UNIX System Calls
-- Shared Memory (System V IPC)
-
----
 # Lab Sheet 09 – UNIX File System and File Permissions
 
 ## 📌 Overview
-This lab focuses on understanding the UNIX file system structure, file access permissions, directory navigation, file modes, i-nodes, and file linking mechanisms. It demonstrates how users can manage files and directories securely using Linux commands.
+
+Exploration of Linux file systems, permissions, and linking mechanisms.
+
+### 🧠 Topics Covered
+
+* UNIX directory structure
+* File permissions
+* chmod
+* i-nodes
+* Hard links
+* Soft links
+
+### 💻 Activities
+
+* Directory navigation
+* Permission management
+* Link creation
+* i-node analysis
+
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* Linux Commands
+* chmod
+* File System Utilities
 
 ---
 
-## 🧠 Topics Covered
-- UNIX Directory Structure
-- Directory Navigation Commands
-- File and Directory Permissions
-- File Ownership and Access Control
-- chmod Command
-- Symbolic and Numeric Permission Modes
-- i-node Concepts
-- Hard Links
-- Soft Links (Symbolic Links)
-- File System Management
-
----
-
-## 💻 Activities
-- Explore the UNIX directory hierarchy
-- Use `pwd`, `cd`, and `ls -l` commands
-- Analyze file types and permission structures
-- Modify file permissions using `chmod`
-- Configure access rights for files and directories
-- Understand owner, group, and others permissions
-- Display and analyze i-node numbers using `ls -i`
-- Create and manage hard links
-- Create and manage symbolic (soft) links
-- Compare hard links and soft links
-- Observe link counts and file behavior after modifications
-
----
-
-## 📸 Screenshots
-Screenshots of directory navigation, permission changes, i-node inspection, hard link creation, and symbolic link operations are included in the `screenshots/` folder.
-
----
-
-## 🛠️ Technologies Used
-- Ubuntu Linux
-- Linux Command Line Interface (CLI)
-- File System Utilities
-- chmod
-- ls
-- pwd
-- Hard Links and Symbolic Links
-
----
 # Lab Sheet 10 – Shell Variables and Shell Scripting
 
 ## 📌 Overview
-This lab focuses on Linux shell variables and basic shell scripting. It demonstrates how environment variables are used, how user-defined variables are created, and how shell scripts are executed in Linux.
+
+Introduction to shell variables and script execution.
+
+### 🧠 Topics Covered
+
+* Environment variables
+* User-defined variables
+* Shell scripts
+* Script permissions
+
+### 💻 Activities
+
+* Variable manipulation
+* Arithmetic operations
+* Script creation
+* Script execution
+
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* Bash Shell
+* Shell Scripting
 
 ---
 
-## 🧠 Topics Covered
-- Environment variables
-- User-defined variables
-- Shell scripting basics
-- Script execution methods
-- File permissions for scripts
-- Command substitution
-- Linux shell environment
+# Lab Sheet 11 – Advanced Shell Scripting
+
+## 📌 Overview
+
+Advanced shell scripting using loops, functions, menus, and command-line arguments.
+
+### 🧠 Topics Covered
+
+* Menu-driven scripts
+* Loops
+* Functions
+* Command-line arguments
+* Pattern generation
+
+### 💻 Activities
+
+* Menu programs
+* Pattern generation
+* Number comparison
+* System information scripts
+
+### 🛠️ Technologies Used
+
+* Ubuntu Linux
+* Bash Shell
+* Shell Scripting
 
 ---
 
-## 💻 Activities
-- Display environment variables
-- Analyze PATH, HOME, USER, PWD, and PS1 variables
-- Create and use custom variables
-- Perform arithmetic operations using shell variables
-- Create shell script files
-- Modify script permissions using chmod
-- Execute scripts with and without execution permissions
-- Create and run basic shell programs
+## 📂 Repository Structure
+
+```text
+Operating-Systems-and-System-Administration/
+│
+├── Lab01/
+├── Lab02/
+├── Lab03/
+├── Lab04/
+├── Lab05/
+├── Lab06/
+├── Lab07/
+├── Lab08/
+├── Lab09/
+├── Lab10/
+├── Lab11/
+│
+├── screenshots/
+└── README.md
+```
 
 ---
 
-## 🛠️ Technologies Used
-- Ubuntu Linux
-- Bash Shell
-- Shell Scripting
-- chmod Command
+## ▶️ Running the Programs
+
+### Compile C Programs
+
+```bash
+gcc program.c -o program
+./program
+```
+
+### Compile Pthread Programs
+
+```bash
+gcc program.c -o program -pthread
+./program
+```
+
+### Execute Shell Scripts
+
+```bash
+chmod +x script.sh
+./script.sh
+```
 
 ---
+
+## 👨‍💻 Author
+
+**Kamshiga Ganesan**
+
+* Student ID: IT24101365
+* Specialization: Software Engineering
+* Institution: Sri Lanka Institute of Information Technology (SLIIT)
+
 ---
-## 📂 Structure
 
+## 📄 License
 
-
-
-
-
+This repository is maintained for educational and academic purposes.
