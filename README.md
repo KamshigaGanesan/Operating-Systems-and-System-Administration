@@ -371,6 +371,43 @@ Screenshots of directory navigation, permission changes, i-node inspection, hard
 - Hard Links and Symbolic Links
 
 ---
+# Lab Sheet 10 – Shell Variables and Shell Scripting
+
+## 📌 Overview
+This lab focuses on Linux shell variables and basic shell scripting. It demonstrates how environment variables are used, how user-defined variables are created, and how shell scripts are executed in Linux.
+
+---
+
+## 🧠 Topics Covered
+- Environment variables
+- User-defined variables
+- Shell scripting basics
+- Script execution methods
+- File permissions for scripts
+- Command substitution
+- Linux shell environment
+
+---
+
+## 💻 Activities
+- Display environment variables
+- Analyze PATH, HOME, USER, PWD, and PS1 variables
+- Create and use custom variables
+- Perform arithmetic operations using shell variables
+- Create shell script files
+- Modify script permissions using chmod
+- Execute scripts with and without execution permissions
+- Create and run basic shell programs
+
+---
+
+## 🛠️ Technologies Used
+- Ubuntu Linux
+- Bash Shell
+- Shell Scripting
+- chmod Command
+
+---
 ---
 ## 📂 Structure
 
